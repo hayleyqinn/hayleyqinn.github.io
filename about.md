@@ -13,6 +13,8 @@ header-img: "img/green.jpg"
 
 - 博客 [www.mrred.club](www.mrred.club)
 
+- 邮箱 [758742501@qq.com](758742501@qq.com)
+
 - 新浪微博 [@hayleyqin_](http://weibo.com/1694579055)
 
 - 微信号：Haley_Qin
