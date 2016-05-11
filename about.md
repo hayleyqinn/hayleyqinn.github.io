@@ -10,7 +10,7 @@ header-img: "img/green.jpg"
 
 目前在学iOS开发，以及备考托福和六级。
 
-'联系'
+#### 联系方式
 
 - 博客 [www.mrred.club](www.mrred.club)
 
