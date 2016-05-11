@@ -11,7 +11,7 @@ header-img: "img/green.jpg"
 
 #### 联系方式
 
-- 博客 [www.mrred.club](www.mrred.club)
+- 博客 [www.mrred.club](mrred.club)
 
 - 邮箱 <758742501@qq.com>
 
