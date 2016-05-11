@@ -65,7 +65,7 @@ header-img: "img/green.jpg"
 
 
 <center>
-    <p><img src="img/QRCODE.jpeg"></p>
+    <p><img src="https://github.com/hayleyqinn/hayleyqinn.github.io/blob/master/img/QRCODE.jpeg"></p>
 </center>
 
 
