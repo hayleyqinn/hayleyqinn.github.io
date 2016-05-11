@@ -55,11 +55,11 @@ header-img: "img/green.jpg"
 
 - [博客：www.cnfeat.com](www.cnfeat.com)
 
-- [微博@CnFeat](http://weibo.com/207775270)
+- 新浪微博[@hayleyqin_](http://weibo.com/1694579055)
 
 - [知乎@陈素封](http://www.zhihu.com/people/Feat)
 
-- [知乎专栏](http://zhuanlan.zhihu.com/cnfeat)
+
 
 > 微信号：Haley_Qin
 
