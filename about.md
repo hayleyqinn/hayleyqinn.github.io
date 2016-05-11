@@ -61,7 +61,7 @@ header-img: "img/green.jpg"
 
 - [知乎专栏](http://zhuanlan.zhihu.com/cnfeat)
 
-- 公众号：cnfeat
+> 微信：Haley_Qin
 
 
 <center>
