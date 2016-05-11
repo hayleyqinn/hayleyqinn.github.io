@@ -1,12 +1,9 @@
 ---
 layout: page
-title: "milestone"
-description: ""
+title: "Milestone"
+description: "纪事"
 header-img: "img/zhihu.jpg"
 ---
 
-### 2016.
-
-
-- 
+### 2016
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Tags"
-description: "根据标签快速找到相应的文章~"  
+description: "文章标签"  
 header-img: "img/semantic.jpg"  
 ---
 
