@@ -51,7 +51,7 @@ header-img: "img/green.jpg"
 - [BuzhiNote](http://BuzhiNote.com)
 - [Azeril](http://azeril.me)
 
-###联系
+# 联系
 
 - [博客：www.cnfeat.com](www.cnfeat.com)
 
@@ -61,7 +61,7 @@ header-img: "img/green.jpg"
 
 - [知乎专栏](http://zhuanlan.zhihu.com/cnfeat)
 
-> 微信：Haley_Qin
+> 微信号：Haley_Qin
 
 
 <center>
