@@ -7,13 +7,13 @@ header-img: "img/semantic.jpg"
 
 <div id='tag_cloud'>
 {% for tag in site.tags %}
-<a style="font-size: 30px; font: bold;"  href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><b>{{ tag[0] }}  </b></a>
+<a style="font-size: 35px; font: bold;"  href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}"><b>{{ tag[0] }}  </b></a>
 {% endfor %}
 </div>
 
 <ul class="listing">
 {% for tag in site.tags %}
-  <li style="list-style: none; font-size: 20px"  class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
+  <li style="list-style: none; font-size: 25px"  class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
 {% for post in tag[1] %}
 
   <li class="listing-item">
