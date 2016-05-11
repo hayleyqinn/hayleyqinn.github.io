@@ -65,7 +65,7 @@ header-img: "img/green.jpg"
 
 
 <center>
-    <p><img src="img/QRCODE"></p>
+    <p><img src="img/QRCODE.jpeg"></p>
 </center>
 
 
