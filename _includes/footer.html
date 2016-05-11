@@ -4,19 +4,9 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
-                    <!-- kill the Facebook and Weibo -->
-                    <li>
-                        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
 
-             
                     <li>
-                        <a href="https://twitter.com/4112311">
+                        <a href="https://twitter.com/hayleyQin">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -24,7 +14,6 @@
                         </a>
                     </li>
                  
-
                     {% if site.github_username %}
                     <li>
                         <a href="https://github.com/{{ site.github_username }}">
@@ -36,31 +25,16 @@
                     </li>
                     {% endif %}
                     
-                    <!--
-                    {% if site.douban_username %}
-                    <li>
-                        <a href="http://www.douban.com/people/{{ site.douban_username }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-douban fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
-                    -->
 
-                    <!--
-                    {% if site.facebook_username %}
                     <li>
-                        <a href="https://www.facebook.com/{{ site.facebook_username }}">
+                        <a href="https://www.facebook.com/hayley.qin.9">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                     </li>
-                    {% endif %}
-                    -->
+        
 
                     {% if site.zhihu_username %}
                     <li>
@@ -72,7 +46,6 @@
                         </a>
                     </li>
                     {% endif %}
-                    
                 
                     <li>
                         <a target="_blank" href="http://weibo.com/1694579055">
@@ -82,9 +55,14 @@
                             </span>
                         </a>
                     </li>
-                  
-                    
-
+                     <li>
+                        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
                 </ul>
 
                 <p class="copyright text-muted">
