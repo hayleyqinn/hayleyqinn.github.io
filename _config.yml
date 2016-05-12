@@ -1,6 +1,6 @@
 # Site settings
 title: "qinhong"
-header-img: "img/green.jpg"
+header-img: "img/black.jpg"
 tagline: "cn"  
 description: 
 baseurl: ""
@@ -9,12 +9,12 @@ url: "http://mrred.club/"
 # About/contact
 owner: 
   name: "mrred"
-  email: CnFeat@gmail.com
-  bio: "写就是写的报酬"
+  email: 
+  bio: 
 
 # Data
 gavatar: http://dreamofbook.qiniudn.com/Az..png
-favicon: img/favicon.png
+favicon: 
 
 douban_username:  
 twitter_username: 
