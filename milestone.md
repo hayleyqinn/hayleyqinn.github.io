@@ -2,7 +2,7 @@
 layout: page
 title: "Milestone"
 description: "纪事"
-header-img: "img/zhihu.jpg"
+header-img: "img/twitter.jpg"
 ---
 
 ### 2016.05.11

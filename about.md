@@ -2,7 +2,7 @@
 layout: page
 title: "About"
 description: "关于"
-header-img: "img/green.jpg"
+header-img: "img/facebook.jpg"
 ---
 
 我叫覃红，是一名在校大学生，热爱互联网，喜欢各种智能设备。
