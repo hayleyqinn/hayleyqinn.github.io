@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 如何获取tableView中cell中的按钮点击数据
+title: 获取tableView中cell中的按钮点击数据
 date: 2016-05-12
 categories: blog
-tags: [tableView][iOS]
+tags: [tableView,iOS]
 description:  
 ---
 
