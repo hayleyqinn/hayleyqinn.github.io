@@ -97,6 +97,22 @@ var duoshuoQuery = {short_name:"qinhong"};
         anchors.add().remove('.intro-header h1').remove('.subheading');
     })
 </script>
+
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
 <style>
     /* place left on bigger screen */
     @media all and (min-width: 800px) {
