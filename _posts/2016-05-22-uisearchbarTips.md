@@ -13,5 +13,6 @@ description:
 
 具体原因还待深究。
 
-> 关于delegate
-需要先在类后面应用某个delegate，然后通过 `XX.delegate = self`绑定delegate。即可在代码中使用定义好的delegate方法。
+> 关于delegate：
+
+需要先在类后面引用某个delegate，然后通过 `XX.delegate = self`绑定delegate。即可在代码中使用定义好的delegate方法。
