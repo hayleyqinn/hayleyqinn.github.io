@@ -1,0 +1,31 @@
+---
+layout: post
+title: 布局问题
+date: 2016-05-23
+categories: blog
+tags: [autoLayout,iOS]
+description:  
+---
+
+### 问题一
+
+在改变Interface Build中的某个组件时如果出现了以下错误 
+
+**class is not key value coding-compliant for the key**
+
+这时候就要去检查代码或者IB中右键某个组件查看其绑定的代码是否存在重复的绑定或者IB有绑定，但是在代码里面被删掉的问题。
+
+### 问题二
+
+**这个约束，约束了我一天。**
+
+之前以为iOS的布局是一件很容易的事，因为auto嘛。
+
+但不是所有的问题都可以用 **Reset to Suggested Constraints** 来解决。
+
+![](http://7xuh4t.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-05-23%20%E4%B8%8B%E5%8D%8810.14.55.png)
+
+![](http://7xuh4t.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-05-23%20%E4%B8%8B%E5%8D%8810.14.39.png)
+
+![](http://7xuh4t.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-05-23%20%E4%B8%8B%E5%8D%8810.14.15.png)
+
