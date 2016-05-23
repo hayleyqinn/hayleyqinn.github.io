@@ -9,7 +9,7 @@ description:
 
 ### 问题一
 
-在改变Interface Build中的某个组件时如果出现了以下错误 
+在改变Interface Build中的某个组件时如果	出现了以下错误 
 
 **class is not key value coding-compliant for the key**
 
