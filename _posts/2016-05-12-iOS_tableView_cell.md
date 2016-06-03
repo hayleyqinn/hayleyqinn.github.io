@@ -52,3 +52,5 @@ description:
 ## 类型推荐
 
 原来除了var 可以推， `UIColor.WhiteColor()` 也可以推啊！---> `.WhiteClor()`
+
+> 当然了，原文链接附上(http://swift.gg/2016/06/02/swift-selector-syntax-sugar/#more)
