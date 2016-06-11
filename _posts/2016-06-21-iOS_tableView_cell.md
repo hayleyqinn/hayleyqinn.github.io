@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 获取cell中的按钮点击数据
-date: 2016-05-12
+title: 关于cell遇到的问题
+date: 2016-06-21
 categories: blog
 tags: [tableView,iOS]
 description:  
@@ -54,3 +54,24 @@ description:
 原来除了var 可以推， `UIColor.WhiteColor()` 也可以推啊！---> `.WhiteClor()`
 
 > 当然了，原文链接附上(http://swift.gg/2016/06/02/swift-selector-syntax-sugar/#more)
+
+### 实现tableview
+
+- 其中一种方法是直接拖入一个tableview controller，此时类也继承一个tableview controller，但不能同时继承多个控制器。事实上控制器已经自动实现了数据源以及相应的代理。
+
+- 第二种是在已有view controller里面拖进一个table view。接下来就是要手动实现委托和数据源了，首先将tableview outlet到view controller，指定好委托对象和数据源对象。
+
+当然，该方法想要实现数据源，也可以在此文件的view controller类外面extension 该控制器，即`extension viewController: UITableViewDataSource{//func tableview(numberOfInSectin....)}`
+
+在跳转传值时可以在prepareForSegue()里面 通过`let vc = segue.destinationViewController as! XXXXController`获得某个控制器。
+此外，如果访问的另外一个控制器的组件是通过故事板拖进来，则不能直接在上一个控制器设置下一个控制器这个组件的值，因为后一个view只有在访问时才被创建，会出现空值的情况。
+
+### 实现自定义cell 
+
+- 可以通过代码创建，然后addsubview
+
+- 通过故事板。即在故事板拖入的imageview是不能直接拖进vc的，要单独建立一个基层tableview cell的类，把cell里面的组件和该类绑定，才能往这里outlet。
+
+`let cell = tableview.dequeueReusableCellWithIdentifier("cell") as! "CustomCellClass"`，在vc里面通过这样的强制转换可“识别”到上新建的类。
+
+
