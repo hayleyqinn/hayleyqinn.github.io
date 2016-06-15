@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 关于cell遇到的问题
-date: 2016-06-21
+date: 2016-06-11
 categories: blog
 tags: [tableView,iOS]
 description:  
@@ -73,5 +73,7 @@ description:
 - 通过故事板。即在故事板拖入的imageview是不能直接拖进vc的，要单独建立一个基层tableview cell的类，把cell里面的组件和该类绑定，才能往这里outlet。
 
 `let cell = tableview.dequeueReusableCellWithIdentifier("cell") as! "CustomCellClass"`，在vc里面通过这样的强制转换可“识别”到上新建的类。
+
+- but 强制转换不是通用as的    比如字符串需要这样的方式来  Int(String)
 
 
