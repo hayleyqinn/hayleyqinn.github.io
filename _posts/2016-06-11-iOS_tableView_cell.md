@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 关于cell遇到的问题
+title: 关于cell以及一些其它问题..
 date: 2016-06-11
 categories: blog
 tags: [tableView,iOS]
