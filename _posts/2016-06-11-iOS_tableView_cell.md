@@ -22,11 +22,9 @@ description:
 `typeClickedIndex`即点击`cell`上任意组件返回的`index`
 
 ## 可以用来做简单的英文搜索哦
-`
-func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
 
+    func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
         print(searchText)
-
         // 没有搜索内容时显示全部组件
 
         if searchText == "" {
@@ -53,9 +51,9 @@ func searchBar(searchBar: UISearchBar, textDidChange searchText: String) {
         // 刷新Table View显示
 
         self.tableView.reloadData()
-        
+
     }
-`
+
 ## 既然上面提到了addTarget，就记录下今天看的语法糖吧
 
 那就是巧妙的应用枚举型。
