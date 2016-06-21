@@ -10,6 +10,7 @@ description:
 - 函数中的参数使用**inout**关键字来按引用传递值，需要配合使用& 
 
 - **位运算符**：
+
 	~: not，逆转 位的顺序
 
 	&: and，比较每个位是否相同，最后输出结果（长度不变，用每个位的比较结果0或1表示）
@@ -64,33 +65,32 @@ description:
 - 结构体和类有重合的地方，但是一个是值类型，一个可以是引用。
 
 - 高级结构体
-  在定义扑克牌的结构体后，使用。
- let s = suitcard(suit: .hearts , value .ace)来初始化。
+  在定义扑克牌的结构体后，使用。`let s = suitcard(suit: .hearts , value .ace)`来初始化。
  
- struct SuitedCard {
-	    enum Suit {
-	        case Hearts
-	        case Spades
-	        case Diamonds
-	        case Clubs
-	    }
+	 struct SuitedCard {
+		    enum Suit {
+		        case Hearts
+		        case Spades
+		        case Diamonds
+		        case Clubs
+		    }
 
-	    enum Value {
-	        case Two
-	        case Three
-	        case Four
-	        case Five
-	        case Six
-	        case Seven
-	        case Eight
-	        case Nine
-	        case Ten
-	        case Jack
-	        case Queen
-	        case King
-	        case Ace
-	    }
+		    enum Value {
+		        case Two
+		        case Three
+		        case Four
+		        case Five
+		        case Six
+		        case Seven
+		        case Eight
+		        case Nine
+		        case Ten
+		        case Jack
+		        case Queen
+		        case King
+		        case Ace
+		    }
 
-	    let suit: Suit
-	    let value: Value
-	}
+		    let suit: Suit
+		    let value: Value
+		}
