@@ -11,13 +11,13 @@ description:
 
 - **位运算符**：
 
-	~: not，逆转 位的顺序
+	`~`: not，逆转 位的顺序
 
-	&: and，比较每个位是否相同，最后输出结果（长度不变，用每个位的比较结果0或1表示）
+	`&`: and，比较每个位是否相同，最后输出结果（长度不变，用每个位的比较结果0或1表示）
 
-	|: or ，原理同上
+	`|`: or ，原理同上
 
-	^: xor，每个位相等为0，不相等为1。 
+	`^`: xor，每个位相等为0，不相等为1。 
 
 - **空和**：?? ，解包可选值，如果其并非零值，则使用该值。否则，使用指定的“默认”值
 
@@ -67,30 +67,30 @@ description:
 - 高级结构体
   在定义扑克牌的结构体后，使用。`let s = suitcard(suit: .hearts , value .ace)`来初始化。
  
-	 struct SuitedCard {
-		    enum Suit {
-		        case Hearts
-		        case Spades
-		        case Diamonds
-		        case Clubs
-		    }
+			 struct SuitedCard {
+				    enum Suit {
+				        case Hearts
+				        case Spades
+				        case Diamonds
+				        case Clubs
+				    }
 
-		    enum Value {
-		        case Two
-		        case Three
-		        case Four
-		        case Five
-		        case Six
-		        case Seven
-		        case Eight
-		        case Nine
-		        case Ten
-		        case Jack
-		        case Queen
-		        case King
-		        case Ace
-		    }
+				    enum Value {
+				        case Two
+				        case Three
+				        case Four
+				        case Five
+				        case Six
+				        case Seven
+				        case Eight
+				        case Nine
+				        case Ten
+				        case Jack
+				        case Queen
+				        case King
+				        case Ace
+				    }
 
-		    let suit: Suit
-		    let value: Value
-		}
+				    let suit: Suit
+				    let value: Value
+				}
