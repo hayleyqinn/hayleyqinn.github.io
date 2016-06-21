@@ -26,7 +26,7 @@ description:
 
 - **map()和reduce()**。它们是 Swift 的 SequenceType 协议的一个函数，通常被数组和字典调用
 	
-	//本示例理解为遍历并可处理每个数据，还可自定义返回值。
+	```//本示例理解为遍历并可处理每个数据，还可自定义返回值。
 	let tripContributions = ["Andy": 25, "Kathleen": 45, "Janhavi": 50, "Sebastian": 10, "Chrisna": 50]
  	let averageTripCost = (25 + 50 + 45 + 10 + 50)/5
  	
@@ -40,9 +40,9 @@ description:
 	})//也可以把此右圆括号放在左圆括号后，拖尾闭包。
 	//["Sebastian owes $26", "Chrisna is owed $14", "Andy owes $11", "Janhavi is owed $9", "Kathleen is owed $14"]
  要知道，闭合类型，包括参数和返回的类型，in 和 return都可以被推断出来，而使用$0 可以显示第一个被输入的参数。
-
+```
  	
- 	//0为初时值，currentMax是当前结果，number数组元素
+ 	```//0为初时值，currentMax是当前结果，number数组元素
  	let numbers = [7, 89, 48, 20, 38, 89, 29]
 	let highestNumber = numbers.reduce(0, combine: {(currentMax, number) -> Int in
     	return max(currentMax, number)
@@ -57,7 +57,7 @@ description:
 	//对于拖尾闭包，它的形式类似于：
 	let maximum = numbers.reduce(0) {
     	max($0, $1)
-	}
+	}```
 
 - 子类init里面也可以调用父类的init，即复用super.init
 
@@ -66,8 +66,7 @@ description:
 - 高级结构体
   在定义扑克牌的结构体后，使用。
  let s = suitcard(suit: .hearts , value .ace)来初始化。
-  
- struct SuitedCard {
+ ```struct SuitedCard {
 	    enum Suit {
 	        case Hearts
 	        case Spades
@@ -93,5 +92,5 @@ description:
 
 	    let suit: Suit
 	    let value: Value
-	}
+	}```
 
