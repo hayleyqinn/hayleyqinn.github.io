@@ -18,3 +18,7 @@ description:
 - performsegue... 执行后，会马上执行praparesegue....  不要把需要传值的变量写在第一句话后面，否则第第二话得到是nil
 
 - 关于swift项目用到了oc库，用点方法无缝得到xCode已经帮你改好的swift版方法，但是（id）类型需要初始化的不能通过点方法得到，要通过 实例名(指定变量名: 要传入的变量)。这也说明了为什么 CGRect(frame: )为什么是这个形式。
+
+- let view = UIViewXXXX()，每实例化一次，就当与新建了一个view，前面的设置均失效。执行过`let label = UILabel()`后再执行`let label = UILabel(frame: CGRect(x: 0, y: 80, width: screenW, height: 20))`，就当与重置了这个View了。
+
+	
