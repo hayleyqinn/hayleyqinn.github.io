@@ -1,0 +1,58 @@
+---
+layout: post
+title: StanfordU iOS 9 听课笔记
+date: 2016-11-30
+categories: blog
+tags: [iOS]
+description:  
+---
+
+- Swift所有的属性都必须有一个初始化的值，两种方式：初始化和直接赋值
+
+- MVC 把代码分成不同的3歌不同的阵营。
+	Model：#what# your app does，应用做什么，如“计算器”就是做计算。和V没有任何交互。M数据改变，广播出去，C接受 
+	Controller: #How# your model is displayed on screen。展示给用户看M的信息或从用户获得信息来更新M；通常C和V的连接通过outlet实现。C能完全控制M，并能调用M所有方法
+	View: Contriller`s minions。Controller想要展示的标签、按钮，这些组件用于展示Model的信息，以及更新用户输入的信息。不能直接从M获取数据
+		V不需要知道和什么对象（C）交互，但他们是通过时间预定好的放法进行通信。
+		V通知C的方法之一：Target-Action,C把自己设为target；其他如V要通知V较复杂的情况，需要通过Delegate来实现，这里有will did should。
+	[图片]http://7xuh4t.com1.z0.glb.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-09-09%20%E4%B8%8A%E5%8D%8810.49.33.png
+
+- 协议是希望别人来实现的方法的描述
+
+- 计算属性（相对于储存属性）
+//displayValue = M_PI，displaValue直接转换为String类型
+var displayVaule: Double {
+	get {
+		return Double(display.text)
+	}
+	set {
+		display.text = String(newValue)
+	}
+}
+
+- MVC运用：
+	计算器应用的功能是计算，所以计算应该刚在model里面。新建Model文件时，永远不要导入UIKit，Model和界面是分开的。
+
+	Internal 在module是public。通过右键可以检查是否有公共的APIs。Model里面几乎都是接口类。
+
+	在Controller里面创建model的实例即可开始调用model，最好为private，且需要初始化，有默认的初始化方法。尽量将所有能私有的私有
+
+	在C里面直接把要操作的数据传给M
+
+- ENUM STRUCT
+	通过值传递的数据结构，即传递时值会被拷贝。相反与按引用传递，它储存在堆里，即内存中的某个地方，即以指针来传来传去，指针指向堆里面的这个东西。INT STRING DOUBLE都是结构体，也是拷贝值
+
+- 类，结构体，枚举
+	类可继承
+	结构体和枚举是按值传递，类是引用  通过指针传递
+
+- 闭包
+	如果必须要有不同的函数实现不同的功能，即内嵌函数，闭包拥有默认参数名$0 $1 $2...
+
+
+- Stack View
+	可以联合几个组件然后通过edit嵌入一个STACK VIEW，这样能方便的管理他们以及设置间距等。可以嵌入stack view,先STACK VIEW再使用AUTO LAYOUT
+	
+- optional
+	optional本质是一个enum，有分别为None和Some(T)的case
+
